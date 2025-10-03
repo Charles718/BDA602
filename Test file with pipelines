@@ -21,7 +21,7 @@ mlflow.set_experiment(EXPERIMENT_NAME)
 def regression_pipelines(csv_path, target_col):
     """Train and log Linear Regression, Random Forest, and XGBoost with MLflow."""
     # Load your dataset
-    df = pd.read_csv(csv_path)
+    df = pd.read_csv("Lyftdataset.csv")
 
     # Split features and target
     X = df.drop(columns=[target_col])

@@ -1,0 +1,24 @@
+,dtype,n_unique,missing_sum,is_numeric,is_categorical,sample_values
+instant,int64,17379,0,True,False,[1 2 3 4 5]
+dteday,object,731,0,False,True,['01-01-11' '02-01-11' '03-01-11' '04-01-11' '05-01-11']
+season,category,4,0,False,True,"[1, 2, 3, 4]
+Categories (4, int64): [1, 2, 3, 4]"
+yr,category,2,0,False,True,"[0, 1]
+Categories (2, int64): [0, 1]"
+mnth,int64,12,0,True,False,[1 2 3 4 5]
+hr,int64,24,0,True,False,[0 1 2 3 4]
+holiday,category,2,0,False,True,"[0, 1]
+Categories (2, int64): [0, 1]"
+weekday,category,7,0,False,True,"[6, 0, 1, 2, 3]
+Categories (7, int64): [0, 1, 2, 3, 4, 5, 6]"
+workingday,category,2,0,False,True,"[0, 1]
+Categories (2, int64): [0, 1]"
+weathersit,category,4,0,False,True,"[1, 2, 3, 4]
+Categories (4, int64): [1, 2, 3, 4]"
+temp,float64,50,0,True,False,[0.24 0.22 0.2  0.32 0.38]
+atemp,float64,65,0,True,False,[0.2879 0.2727 0.2576 0.3485 0.3939]
+hum,float64,89,0,True,False,[0.81 0.8  0.75 0.86 0.76]
+windspeed,float64,30,0,True,False,[0.     0.0896 0.2537 0.2836 0.2985]
+casual,int64,322,0,True,False,[3 8 5 0 2]
+registered,int64,776,0,True,False,[13 32 27 10  1]
+cnt,int64,869,0,True,False,[16 40 32 13  1]

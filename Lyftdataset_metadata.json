@@ -1,0 +1,41 @@
+{
+    "dtypes": {
+        "instant": "int64",
+        "dteday": "object",
+        "season": "category",
+        "yr": "category",
+        "mnth": "int64",
+        "hr": "int64",
+        "holiday": "category",
+        "weekday": "category",
+        "workingday": "category",
+        "weathersit": "category",
+        "temp": "float64",
+        "atemp": "float64",
+        "hum": "float64",
+        "windspeed": "float64",
+        "casual": "int64",
+        "registered": "int64",
+        "cnt": "int64"
+    },
+    "columns": [
+        "instant",
+        "dteday",
+        "season",
+        "yr",
+        "mnth",
+        "hr",
+        "holiday",
+        "weekday",
+        "workingday",
+        "weathersit",
+        "temp",
+        "atemp",
+        "hum",
+        "windspeed",
+        "casual",
+        "registered",
+        "cnt"
+    ],
+    "n_rows": 17379
+}

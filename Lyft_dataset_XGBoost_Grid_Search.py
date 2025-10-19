@@ -184,3 +184,9 @@ with start_run(run_name="Best XGBoost Model"):
     log_metric("best_rmse", best_rmse)
     log_metric("best_r2", r2_score(y_test, y_pred_best))
     print("Logged Best Model to MLflow")
+
+# Save best model locally using joblib
+import joblib
+joblib.dump(best_model, "xgboost_best_model.pkl")
+print("✅ Best model saved locally as 'xgboost_best_model.pkl'")
+   
